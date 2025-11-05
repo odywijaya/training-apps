@@ -1,0 +1,26 @@
+{
+  "name": "Ody Octora Wijaya",
+  "headline": "[Headline profesional Anda — contoh: Full-stack Developer | DevOps Enthusiast]",
+  "summary": "Masukkan ringkasan singkat tentang pengalaman, fokus teknologi, dan tujuan karier Anda. Contoh: 'Full-stack developer dengan pengalaman membangun aplikasi Node.js dan pipeline CI/CD.'",
+  "experiences": [
+    {
+      "role": "Contoh: Software Engineer",
+      "company": "Contoh: Perusahaan ABC",
+      "period": "2022 — sekarang",
+      "description": "Ringkasan tanggung jawab dan pencapaian (gunakan bullet di resume LinkedIn Anda)."
+    }
+  ],
+  "education": [
+    {
+      "school": "Contoh: Universitas XYZ",
+      "degree": "S1 Teknik Informatika",
+      "period": "2016 — 2020"
+    }
+  ],
+  "skills": ["JavaScript","Node.js","Docker","CI/CD"],
+  "contact": {
+    "email": "you@example.com",
+    "website": "https://example.com",
+    "linkedin": "https://www.linkedin.com/in/ody-octora-wijaya/"
+  }
+}

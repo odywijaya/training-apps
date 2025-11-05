@@ -1,0 +1,15 @@
+:root{--bg:#f6f8fb;--card:#ffffff;--muted:#6b7280;--accent:#0f62fe}
+*{box-sizing:border-box;font-family:Inter,Segoe UI,Roboto,Arial,sans-serif}
+body{margin:0;background:var(--bg);color:#111}
+.wrap{max-width:900px;margin:36px auto;padding:16px}
+.hero{background:linear-gradient(90deg,#fff,#f8fbff);padding:28px;border-radius:8px;margin-bottom:18px}
+.hero h1{margin:0;font-size:28px}
+.muted{color:var(--muted)}
+.card{background:var(--card);padding:18px;border-radius:8px;margin-bottom:14px;box-shadow:0 1px 0 rgba(0,0,0,0.04)}
+h2{margin:0 0 10px 0;font-size:16px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:#eef6ff;padding:6px 10px;border-radius:999px;color:var(--accent);font-weight:600}
+.exp-item{margin-bottom:12px}
+.exp-item h3{margin:0;font-size:14px}
+.exp-meta{color:var(--muted);font-size:13px}
+@media (max-width:600px){.wrap{margin:20px;padding:12px}}
