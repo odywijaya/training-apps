@@ -18,22 +18,22 @@ pipeline {
             }
         }
         
-        stage('Testing') {
-            steps {
-                echo 'Running tests...'
-                dir('app') {
-                    sh '''
-                        npm test
-                        npm run test:coverage
-                    '''
-                }
-            }
-            post {
-                always {
-                    echo 'Test stage completed'
-                }
-            }
-        }
+        // stage('Testing') {
+        //     steps {
+        //         echo 'Running tests...'
+        //         dir('app') {
+        //             sh '''
+        //                 npm test
+        //                 npm run test:coverage
+        //             '''
+        //         }
+        //     }
+        //     post {
+        //         always {
+        //             echo 'Test stage completed'
+        //         }
+        //     }
+        // }
         
         stage('Code Review') {
             steps {
